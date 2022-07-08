@@ -1,0 +1,50 @@
+$width: 20%;
+$height: 20%;
+$estilos: (
+   color: #87868a,
+   centro: center,
+   tFuente: 35px,
+);
+
+@mixin left-row-flex {
+   flex-direction: row;
+   display: flex;
+   justify-content: left;
+}
+
+.vendidos{
+.losmasvendidos{
+   background-color: map-get($map: estilos, $key: color);
+   .sommier{
+   height:  $height;
+   width: $width;
+   }
+   .heladera{
+      height:  $height;
+      width: $width;
+   }
+   .termotanque{
+      height:  $height;
+      width: $width;
+   }
+   .radiador{
+      height:  $height;
+      width: $width;
+   }
+   .ventilador{
+      height:  $height;
+      width: $width;
+   }
+}
+}
+
+.titulo{
+   background-color: #87868a;
+}
+
+.losmasvendidos{
+   @extend.titulo;
+   @include center-row-flex;
+}
+
+

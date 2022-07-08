@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.titulo{
+background-color: gray;
+text-align: left;
+padding: 5px;
+}
+
+.img-vendidos{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.img-vendidos img{
+  width: 200px;
+  height: 200px;
+  border: 2px black;
+}
+
+.electrodos-inicio{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.electrodos-inicio img{
+  width: 200px;
+  height: 200px;
+  border: 2px black;
+}
+
+.hogar-inicio{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.hogar-inicio img{
+  width: 200px;
+  height: 200px;
+  border: 2px black;
+}
